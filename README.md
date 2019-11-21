@@ -302,7 +302,7 @@ MethodSpec today = MethodSpec.methodBuilder("tomorrow")
     .addStatement("return new $T()", hoverboard)
     .build();
 ```
-
+ 
 And that not-yet-existent class is imported as well:
 
 ```java
